@@ -28,11 +28,10 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-   LinearGradient My_color=LinearGradient(
-      colors: [Color(0xffF9B326), Color(0xffE14594)],);
+  
   var userInput = '';
   var answer = '';
-  var bac_color = Colors.grey[400];
+  var bac_color = Colors.grey[300];
 // Array of button
   final List<String> buttons = [
     'AC',
